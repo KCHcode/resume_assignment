@@ -6,9 +6,9 @@ body {
 
 .three-box-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: auto auto; 
-    gap: 20px; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -23,7 +23,7 @@ body {
 .box1 {
     display: flex;
     align-items: center;
-    gap: 15px; 
+    gap: 15px;
 }
 
 .box1 img {
@@ -38,25 +38,25 @@ body {
 }
 
 .title {
-    margin-top: -5px; 
+    margin-top: -5px;
     font-size: 1rem;
-    color: #323131; 
+    color: #323131;
 }
 
 .box3 {
-    grid-column: 1 / 3; 
+    grid-column: 1 / 3;
 }
 
 #exp-edu {
     max-width: 900px;
-    margin: 40px auto; 
+    margin: 40px auto;
 }
 
 .exp-edu-box {
     background-color: #f0f0f0;
-    padding: 20px;        
+    padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 10px;   
+    border-radius: 10px;
 }
 
 .exp-edu-box h2 {
@@ -71,6 +71,33 @@ body {
 }
 
 .exp-edu-box li {
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+#skills {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.skills-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.skills-box h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.skills-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-box li {
     margin-bottom: 15px;
     line-height: 1.4;
 }
