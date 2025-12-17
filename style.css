@@ -50,6 +50,8 @@ body {
 #exp-edu {
     max-width: 900px;
     margin: 40px auto;
+    display: flex;
+    align-items: start;
 }
 
 .exp-edu-box {
@@ -78,6 +80,8 @@ body {
 #skills {
     max-width: 900px;
     margin: 40px auto;
+    display: flex;
+    align-items: end;
 }
 
 .skills-box {
